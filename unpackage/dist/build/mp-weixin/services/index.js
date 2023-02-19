@@ -1,0 +1,1 @@
+"use strict";const t=require("../common/vendor.js");exports.getList=function(){return JSON.parse(t.index.getStorageSync("chatArr")||"[]")},exports.saveList=function(e){t.index.setStorageSync("chatArr",JSON.stringify(e))};

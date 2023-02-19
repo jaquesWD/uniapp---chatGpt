@@ -1206,7 +1206,7 @@ function populateParameters(fromRes, toRes) {
   const hostLanguage = language.replace(/_/g, "-");
   const parameters = {
     appId: "__UNI__89623DA",
-    appName: "chatGpt",
+    appName: "DWD-chatGpt",
     appVersion: "1.0.0",
     appVersionCode: "100",
     appLanguage: getAppLanguage(hostLanguage),
@@ -1350,7 +1350,7 @@ const getAppBaseInfo = {
       hostSDKVersion: SDKVersion,
       hostTheme: theme,
       appId: "__UNI__89623DA",
-      appName: "chatGpt",
+      appName: "DWD-chatGpt",
       appVersion: "1.0.0",
       appVersionCode: "100",
       appLanguage: getAppLanguage(hostLanguage)
@@ -6678,5 +6678,6 @@ exports.e = e;
 exports.f = f;
 exports.index = index;
 exports.o = o;
+exports.onMounted = onMounted;
 exports.ref = ref;
 exports.t = t;
